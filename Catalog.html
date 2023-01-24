@@ -14,13 +14,13 @@
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="about.html">О Седоне</a>
         </li>
          <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-list navigation-user">
@@ -31,11 +31,13 @@
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class = "visually-hidden">Избранное</span></a>
+            <span class = "visually-hidden">Избранное</span>
+          </a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
-            <span class = "visually-hidden">Хочу сюда</span></a>
+            <span class = "visually-hidden">Хочу сюда</span>
+          </a>
         </li>
       </ul>
     </nav>
@@ -74,30 +76,30 @@
             </li>
             <li class="hotels-filter-item">
               <label class="control">
-               <input class="control-input" type="checkbox" name="wi-fi">
+                <input class="control-input" type="checkbox" name="wi-fi">
                 Wi-Fi
               </label>
             </li>
         </ul>
         </fieldset>
         <fieldset class="hotels-filter-group">
-          <legend class="hotels-filter-title">Тип жилья::</legend>
+          <legend class="hotels-filter-title">Тип жилья:</legend>
           <ul class="hotels-filter-list">
             <li class="hotels-filter-item">
               <label class="control">
-               <input class="control-input" type="radio" name="hotel" checked>
+                <input class="control-input" type="radio" name="house-type" value="hotel" checked>
                 Гостиница
               </label>
             </li>
             <li class="hotels-filter-item">
               <label class="control">
-               <input class="control-input" type="radio" name="motel">
+               <input class="control-input" type="radio" name="house-type" value="motel">
                 Мотель
               </label>
             </li>
             <li class="hotels-filter-item">
               <label class="control">
-               <input class="control-input" type="radio" name="apartament">
+               <input class="control-input" type="radio" name="house-type" value="apartament">
                 Апартаменты
               </label>
             </li>
