@@ -128,18 +128,20 @@
         <option value="expensive">Сначала дорогие</option>
         <option value="popular">Сначала популярные</option>
       </select>
-      <a class="button" href="#">
-        <img src="/images/icons/view-card.svg" width="16" height="14" alt="отображение гостиниц карточками">
-        <span class="visually-hidden">Показать карточки</span>
-      </a>
-      <a class="button" href="#">
-        <img src="/images/icons/view-slides.svg" width="16" height="14" alt="отображение гостиниц слайдами">
-        <span class="visually-hidden">Показать слайды</span>
-      </a>
-      <a class="button" href="#">
-        <img src="/images/icons/view-list.svg" width="16" height="14" alt="отображение гостиниц списком">
-        <span class="visually-hidden">Показать список</span>
-      </a>
+      <div class="sorting-container">
+        <a class="button button-sorting" href="#">
+          <img src="/images/icons/view-card.svg" width="16" height="14" alt="отображение гостиниц карточками">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a class="button button-sorting" href="#">
+          <img src="/images/icons/view-slides.svg" width="16" height="14" alt="отображение гостиниц слайдами">
+          <span class="visually-hidden">Показать слайды</span>
+        </a>
+        <a class="button button-sorting" href="#">
+          <img src="/images/icons/view-list.svg" width="16" height="14" alt="отображение гостиниц списком">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+      </div>
     </div>
       <ul class="hotel-list">
         <li class="hotel-item">
@@ -147,56 +149,64 @@
             <img class="hotel-card-image" src="/images/hotels/hotel-1.jpg" width="300" height="212" alt="фото отеля Amara">
             <h3 class="hotel-card-title">Amara Resort & Spa</h3>
           </a>
-          <p class="hotel-card-price">Гостиница</p>
-          <p class="hotel-card-price">от 4000 Р</p>
-          <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
-          <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
-          <div class="hotel-stars hotel-stars-4">
-            <span class="visually-hidden">4 звезды</span>
-          </div>
-          <p class="rating">Рейтинг: 8,5</p>
+          <div class="hotel-properties">
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card-price">от 4000 Р</p>
+            <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
+            <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
+            <div class="hotel-stars hotel-stars-4">
+              <span class="visually-hidden">4 звезды</span>
+            </div>
+            <p class="rating">Рейтинг: 8,5</p>
+        </div>
         </li>
         <li class="hotel-item">
           <a class="hotel-card-link" href="hotel.html">
             <img class="hotel-card-image" src="/images/hotels/hotel-2.jpg" width="300" height="212" alt="фото отеля Villas">
             <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           </a>
-          <p class="hotel-card-price">Гостиница</p>
-          <p class="hotel-card-price">от 5000 Р</p>
-          <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
-          <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
-          <div class="hotel-stars hotel-stars-4">
-            <span class="visually-hidden">4 звезды</span>
-          </div>
-          <p class="rating">Рейтинг: 9,2</p>
+          <div class="hotel-properties">
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card-price">от 5000 Р</p>
+            <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
+            <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
+            <div class="hotel-stars hotel-stars-4">
+              <span class="visually-hidden">4 звезды</span>
+            </div>
+            <p class="rating">Рейтинг: 9,2</p>
+        </div>
         </li>
         <li class="hotel-item">
           <a class="hotel-card-link" href="hotel.html">
             <img class="hotel-card-image" src="/images/hotels/hotel-3.jpg" width="300" height="212" alt="фото отеля Desert">
             <h3 class="hotel-card-title">Desert Quail Inn</h3>
           </a>
-          <p class="hotel-card-price">Гостиница</p>
-          <p class="hotel-card-price">от 2500 Р</p>
-          <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
-          <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
-          <div class="hotel-stars hotel-stars-3">
-            <span class="visually-hidden">3 звезды</span>
+          <div class="hotel-properties">
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card-price">от 2500 Р</p>
+            <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
+            <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
+            <div class="hotel-stars hotel-stars-3">
+              <span class="visually-hidden">3 звезды</span>
+            </div>
+            <p class="rating">Рейтинг: 6,9</p>
           </div>
-          <p class="rating">Рейтинг: 6,9</p>
         </li>
         <li class="hotel-item">
           <a class="hotel-card-link" href="hotel.html">
             <img class="hotel-card-image" src="/images/hotels/hotel-4.jpg" width="300" height="212" alt="фото отеля GreenTree">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
           </a>
-          <p class="hotel-card-price">Гостиница</p>
-          <p class="hotel-card-price">от 1500 Р</p>
-          <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
-          <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
-          <div class="hotel-stars hotel-stars-2">
-            <span class="visually-hidden">2 звезды</span>
+          <div class="hotel-properties">
+            <p class="hotel-card">Гостиница</p>
+            <p class="hotel-card-price">от 1500 Р</p>
+            <a class="hotel-card-button button" href="#">ПОДРОБНЕЕ</a>
+            <button class="hotel-card-button button button-favorite" type="button">В ИЗБРАННОЕ</button>
+            <div class="hotel-stars hotel-stars-2">
+              <span class="visually-hidden">2 звезды</span>
+            </div>
+            <p class="rating">Рейтинг: 5,0</p>
           </div>
-          <p class="rating">Рейтинг: 5,0</p>
         </li>
       </ul>
       <ul class="pagination">
@@ -222,15 +232,17 @@
         </li>
       </ul>
       <section class="newsletter newsletter-catalog">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="visually-hidden" for="newsletter-email">Email</label>
-          <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button class="button newsletter-button" type="submit">
-            <span class="subscribe">Подписаться</span>
-          </button>
-        </form>
+        <div class="newsletter-container">
+          <h2 class="page-title">Подпишитесь на рассылку</h2>
+          <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="newsletter-email">Email</label>
+            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button newsletter-button" type="submit">
+              <span class="subscribe">Подписаться</span>
+            </button>
+          </form>
+        </div>
       </section>
   </main>
   <footer class="page-footer">
