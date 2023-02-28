@@ -74,7 +74,6 @@ body {
   color:#000000;
   text-decoration: none;
   padding: 20px 16px;
-
 }
 .navigation-link-button{
   color:#FFFFFF;
@@ -96,6 +95,20 @@ body {
 }
 .navigation-link-button:focus{
   background: #615048;
+}
+.search{
+  background-image: url("/images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.favorite{
+  background-image: url("/images/icons/favorite.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 .hero{
   background-image:  url("/images/zip.svg"), url("/images/index-background.jpg");
@@ -405,6 +418,9 @@ body {
 .footer-social-item{
   list-style-type: none;
   padding: 12px 13px;
+}
+.footer-social-icon:hover{
+  background: #68A2CA;
 }
 .button-apply{
   font-weight: 700;
