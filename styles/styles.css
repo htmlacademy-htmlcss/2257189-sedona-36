@@ -738,6 +738,13 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
+.sorting-link:hover{
+  border: 2px solid #000000;
+}
+.sorting-link:focus{
+  border: 2px solid #68A2CA;
+  outline: none;
+}
 .sorting-item:not(:last-child){
   margin-right: 8px;
 }
