@@ -26,9 +26,9 @@
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-          <ul class="navigation-list navigation-user">
+          <ul class="navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-user-link" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="19" height="19"
                   fill="none" viewBox="0 0 19 19">
                   <path fill="#000"
@@ -38,7 +38,7 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-user-link" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="19" height="17"
                   fill="none" viewBox="0 0 19 17">
                   <path fill="#000"
@@ -219,7 +219,7 @@
         </section>
       </footer>
     </div>
-    <!-- <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal">
         <button class="modal-close-button">
           <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="14" height="14" fill="none" viewBox="0 0 14 14">
@@ -231,22 +231,28 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
-              <span class="modal-date arrival">Дата Заезда:</span>
-              <input class="date-form" type="date"  name="date">
-              <span class="modal-form-comment-arrival">Мы не можем отправить вас в прошлое.</span>
+              <label class="modal-date arrival">Дата Заезда:</label>
+              <input class="date-form" type="text"  name="date" placeholder="27 апреля 2020">
+              <span class="modal-form-comment-arrival modal-form-error">Мы не можем отправить вас в прошлое.</span>
+              <button class="modal-date-button"></button>
             </p>
             <p class="field-group">
-              <span class="modal-date departure">Дата Выезда:</span>
-              <input class="date-form" type="date"  name="date">
-              <span class="modal-form-comment-departure">На эти даты есть свободные номера. Пока есть.</span>
+              <label class="modal-date departure">Дата Выезда:</label>
+              <input class="date-form" type="text"  name="date" placeholder="1 сентября 2023">
+              <span class="modal-form-comment-departure">На эти даты есть свободные номера. Пока есть. </span>
+              <button class="modal-date-button"></button>
             </p>
-            <div class="person">
-              <div class="person-adult">
-                <span class="adult">Взрослые:</span>
-                <input class="person-form" type="number" name="number" placeholder="2">
-               </div>
-               <div class="person-children">
-                <span class="children">Дети:</span>
+            <div class="person" >
+              <div class="person-container">
+                <label class="adult" for="adult">Взрослые:</label>
+                <div class="adult-container">
+                  <button class="modal-minus"></button>
+                  <input class="person-form" type="number" name="number" id="adult" placeholder="2">
+                  <button class="modal-plus"></button>
+                </div>
+              </div>
+               <div class="person-container">
+                <label class="children" for="children">Дети:</label>
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button">
                     <svg class="tooltip-image" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="20" height="20" fill="none" viewBox="0 0 20 20">
@@ -259,14 +265,18 @@
                     </svg>
                   </span>
                   </span>
-                <input class="person-form" type="number" name="number" placeholder="2">
+                  <div class="adult-container">
+                    <button class="modal-minus"></button>
+                    <input class="person-form" type="number" name="number" id="children" placeholder="2">
+                    <button class="modal-plus"></button>
+                  </div>
                </div>
             </div>
             <button class="button-search" type="button">Найти</button>
           </form>
         </section>
       </div>
-    </div> -->
+    </div>
   </body>
 
 </html>
