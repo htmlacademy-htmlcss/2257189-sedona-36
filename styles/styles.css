@@ -179,7 +179,7 @@ body {
   background: #E5E5E5;
 }
 .hero{
-  background-color: #756157;
+  background-color: #957666;
   background-image:  url("/images/zip.svg"), url("/images/index-background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left top;
@@ -586,7 +586,7 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 18px;
   border: none;
   width: 103px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 .range-input:hover{
   background: #E6E6E6;
@@ -1048,7 +1048,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .select-control{
   width: 292px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   padding: 12px 20px;
@@ -1202,35 +1202,35 @@ input[type="number"]::-webkit-inner-spin-button {
   outline: none;
 }
 .date-form::-webkit-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   font-weight: 700;
   fill-opacity: 1;
 
 }
 .date-form::-moz-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   font-weight: 700;
   fill-opacity: 1;
 
 }
 .date-form:-ms-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   font-weight: 700;
   fill-opacity: 1;
 
 }
 .date-form::-ms-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   font-weight: 700;
   fill-opacity: 1;
 
 }
 .date-form::placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   font-weight: 700;
   fill-opacity: 1;
@@ -1276,7 +1276,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .person-form{
   padding: 11px 7px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -1286,31 +1286,31 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 11px;
 }
 .person-form::-webkit-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   fill-opacity: 1;
   font-weight: 700;
 }
 .person-form::-moz-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   fill-opacity: 1;
   font-weight: 700;
 }
 .person-form:-ms-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   fill-opacity: 1;
   font-weight: 700;
 }
 .person-form::-ms-input-placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   fill-opacity: 1;
   font-weight: 700;
 }
 .person-form::placeholder{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   color: #000000;
   fill-opacity: 1;
   font-weight: 700;
@@ -1327,7 +1327,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-right: 10px;
 }
 .button-search{
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1392,23 +1392,23 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .field::-webkit-input-placeholder{
   font-size: 18px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
 }
 .field::-moz-placeholder{
   font-size: 18px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
 }
 .field:-ms-input-placeholder{
   font-size: 18px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
 }
 .field::-ms-input-placeholder{
   font-size: 18px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
 }
 .field::placeholder{
   font-size: 18px;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
 }
 .modal-date-button{
   background: url("/images/icons/modal-date.svg");
