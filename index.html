@@ -2,9 +2,10 @@
 <html lang="ru">
 
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="/favicon/favicon.ico">
   </head>
 
   <body>
@@ -13,7 +14,7 @@
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
             <img class="page-header-logo" alt="Логотип города «Седона»." src="/images/sedona-logo.svg" width="140"
-              height="70" />
+              height="70">
           </a>
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -57,7 +58,7 @@
       <main class="main-container">
         <section class="hero">
           <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-          <img class="tagline" src="/images/welcome.svg" width="458" height="352" alt="Логотип Седона" />
+          <img class="tagline" src="/images/welcome.svg" width="458" height="352" alt="Логотип Седона">
         </section>
         <section class="advantages">
           <div class="advantages-main">
@@ -76,7 +77,7 @@
               </p>
             </li>
             <li class="advantages-item advantages-item-image">
-              <img src="/images/advantages-photo-1.jpg" width="800" height="385" alt="картинка города Седона" />
+              <img src="/images/advantages-photo-1.jpg" width="800" height="385" alt="картинка города Седона">
             </li>
             <li class="advantages-item light-blue">
               <h3 class="advantages-title title-hight">Небольшая площадь</h3>
@@ -97,10 +98,10 @@
               </p>
             </li>
             <li class="advantages-item-image advantages-item">
-              <img src="/images/advantages-photo-2.jpg" width="800" height="385" alt="картинка каньона" />
+              <img src="/images/advantages-photo-2.jpg" width="800" height="385" alt="картинка каньона">
             </li>
             <li class="advantages-item blue">
-              <h3 class="advantages-title">Там есть<br />мост дьявола</h3>
+              <h3 class="advantages-title">Там есть<br>мост дьявола</h3>
               <p class="advantages-description">
                 Да, по нему можно пройти! Если вы осмелитесь, разумеется
               </p>
@@ -120,21 +121,21 @@
             <li class="advice-item house">
               <h3 class="advice-item-title">Жильё</h3>
               <p class="advice-item-description">
-                Рекомендуем пожить <br />в настоящем мотеле,<br />
+                Рекомендуем пожить <br>в настоящем мотеле,<br>
                 всё как в кино!
               </p>
             </li>
             <li class="advice-item food">
               <h3 class="advice-item-title">Еда</h3>
               <p class="advice-item-description">
-                Всегда заказывайте <br />топовый фирменный бургер, вы не
+                Всегда заказывайте <br>топовый фирменный бургер, вы не
                 разочаруетесь!
               </p>
             </li>
             <li class="advice-item souvenirs">
               <h3 class="advice-item-title">Сувениры</h3>
               <p class="advice-item-description">
-                Не только китайского,<br />
+                Не только китайского,<br>
                 но и настоящего местного производства!
               </p>
             </li>
@@ -143,7 +144,7 @@
         <section class="searching-form">
           <h2 class="searching-form-title">Заинтересовались?</h2>
           <p class="searching-form-description">
-            Укажите предполагаемые даты поездки,<br />
+            Укажите предполагаемые даты поездки,<br>
             и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
           <a class="searching-button" href="index.html">
@@ -159,7 +160,7 @@
             <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="visually-hidden" for="newsletter-email">Email</label>
               <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-                required />
+                required>
               <button class="button newsletter-button" type="submit">
                 <span class="subscribe">Подписаться</span>
               </button>
@@ -231,14 +232,14 @@
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
-              <label class="modal-date arrival">Дата Заезда:</label>
-              <input class="date-form" type="text"  name="date" placeholder="27 апреля 2020">
+              <label class="modal-date arrival" for="arrival">Дата Заезда:</label>
+              <input class="date-form" type="text" id="arrival" name="date" placeholder="27 апреля 2020" required>
               <span class="modal-form-comment-arrival modal-form-error">Мы не можем отправить вас в прошлое.</span>
               <button class="modal-date-button"></button>
             </p>
             <p class="field-group">
-              <label class="modal-date departure">Дата Выезда:</label>
-              <input class="date-form" type="text"  name="date" placeholder="1 сентября 2023">
+              <label class="modal-date departure" for="departure">Дата Выезда:</label>
+              <input class="date-form" type="text" id="departure" name="date" placeholder="1 сентября 2023" required>
               <span class="modal-form-comment-departure">На эти даты есть свободные номера. Пока есть. </span>
               <button class="modal-date-button"></button>
             </p>
@@ -246,9 +247,17 @@
               <div class="person-container">
                 <label class="adult" for="adult">Взрослые:</label>
                 <div class="adult-container">
-                  <button class="modal-minus"></button>
-                  <input class="person-form" type="number" name="number" id="adult" placeholder="2">
-                  <button class="modal-plus"></button>
+                  <button class="modal-minus">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#000" fill-opacity=".3" d="M3 9v2h14V9H3Z">
+                    </svg>
+                  </button>
+                  <input class="person-form" type="number" name="number" id="adult" placeholder="2" required>
+                  <button class="modal-plus">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#756157" fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z">
+                    </svg>
+                  </button>
                 </div>
               </div>
                <div class="person-container">
@@ -266,9 +275,17 @@
                   </span>
                   </span>
                   <div class="adult-container">
-                    <button class="modal-minus"></button>
-                    <input class="person-form" type="number" name="number" id="children" placeholder="2">
-                    <button class="modal-plus"></button>
+                    <button class="modal-minus">
+                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                        <path fill="#000" fill-opacity=".3" d="M3 9v2h14V9H3Z"/>
+                      </svg>
+                    </button>
+                    <input class="person-form" type="number" name="number" id="children" placeholder="2" required>
+                    <button class="modal-plus">
+                      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                        <path fill="#756157" fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z">
+                      </svg>
+                    </button>
                   </div>
                </div>
             </div>
